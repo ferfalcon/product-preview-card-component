@@ -1,3 +1,6 @@
+:root {
+  --body-background: hsl(28, 38%, 92%);
+}
 html {
   box-sizing: border-box;
 }
@@ -6,12 +9,37 @@ html {
 *::after {
   box-sizing: inherit;
 }
+.ff-accent {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+.ff-body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+}
+.ff-body-thick {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-weight: 700;
+}
 body {
   display: flex;
   flex-direction: column;
   min-height: 100svh;
   margin: 0;
   padding: 1rem;
+  background: var(--body-background);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
 }
 img {
   max-width: 100%;
