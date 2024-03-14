@@ -63,13 +63,20 @@ img {
 	margin: auto;
 	
 	@media (min-width: 60rem) {
+		display: flex;
 		max-width: 37.5rem;
+		min-height: 28.125rem;
 	}
 }
 
 .product-card--content {
-	margin:  1.5rem auto;
+	margin: 1.5rem auto;
 	max-width: 18.5rem;
+	
+	@media (min-width: 60rem) {
+		margin: 2rem 2rem 0;
+		max-width: 14.75rem;
+	}
 }
 
 .product-card--tags {
@@ -77,6 +84,10 @@ img {
 	text-transform: uppercase;
 	letter-spacing: .313rem;
 	margin: 0 0 .75rem;
+	
+	@media (min-width: 60rem) {
+		margin: 0 0 1.25rem;
+	}
 }
 
 .product-card--name {
@@ -85,12 +96,20 @@ img {
 	font-size: 2rem;
 	line-height: 2rem;
 	margin: 0 0 1rem;
+
+	@media (min-width: 60rem) {
+		margin: 0 0 1.75rem;
+	}
 }
 
 .product-card--description {
 	font-size: .875rem;
 	line-height: 1.438rem;
 	margin: 0 0 1.5rem;
+
+	@media (min-width: 60rem) {
+		margin: 0 0 1.875rem;
+	}
 }
 
 .product-card--prices {
@@ -98,12 +117,17 @@ img {
 	align-items: center;
 	gap: 1.25rem;
 	margin: 0 0 1.25rem;
+
+	@media (min-width: 60rem) {
+		margin: 0 0 1.875rem;
+	}
 }
 
 .product-card--current-price {
 	.ff-accent;
 	font-size: 2rem;
 	color: var(--accent-color);
+	line-height: 1;
 }
 
 .product-card--old-price {
@@ -136,6 +160,10 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: end;
+
+	@media (min-width: 60rem) {
+		flex-grow: revert;
+	}
 }
 
 .attribution {
