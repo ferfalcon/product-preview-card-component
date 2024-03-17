@@ -75,15 +75,15 @@ img {
   }
 }
 .product-card--content {
-  margin: 1.5rem auto;
-  max-width: 18.5rem;
+  padding: 1.5rem;
   background: white;
-  border-radius: 0.625rem;
+  border-radius: 0 0 0.625rem 0.625rem;
 }
 @media (min-width: 60rem) {
   .product-card--content {
-    margin: 2rem 2rem 0;
-    max-width: 14.75rem;
+    max-width: 300px;
+    padding: 2rem 2rem 0  2rem ;
+    border-radius: 0 0.625rem 0.625rem 0;
   }
 }
 .product-card--tags {
