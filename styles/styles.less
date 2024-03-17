@@ -55,9 +55,6 @@ img {
 }
 
 .product-card {
-	background: white;
-	border-radius: .625rem;
-	overflow: hidden;
 	width: 100%;
 	max-width: 21.438rem;
 	margin: auto;
@@ -69,9 +66,21 @@ img {
 	}
 }
 
+.product-card__image {
+	display: block;
+	overflow: hidden;
+	border-radius: .625rem .625rem 0 0;
+	
+	@media (min-width: 60rem) {
+		border-radius: .625rem 0 0 .625rem;
+	}
+}
+
 .product-card--content {
 	margin: 1.5rem auto;
 	max-width: 18.5rem;
+	background: white;
+	border-radius: .625rem;
 	
 	@media (min-width: 60rem) {
 		margin: 2rem 2rem 0;
@@ -114,6 +123,7 @@ img {
 
 .product-card--prices {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	gap: 1.25rem;
 	margin: 0 0 1.25rem;
