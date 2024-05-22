@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
 ## Table of contents
 
@@ -28,21 +28,24 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ferfalcon/product-preview-card-component/)
-- [Live Site URL](https://ferfalcon.github.io/product-preview-card-component/)
+- Solution URL: [https://github.com/ferfalcon/product-preview-card-component](https://github.com/ferfalcon/product-preview-card-component/)
+- Live Site URL: [https://ferfalcon.github.io/product-preview-card-component](https://ferfalcon.github.io/product-preview-card-component/)
 
 ## My process
 
 ### Built with
 
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
-- [Less](https://lesscss.org/) - Less CSS
+- CSS Grid
+- [BEM](https://getbem.com/) - Naming convention for HTML elements classification
+- [Less](https://lesscss.org/) - CSS preprocessor for styles
 
 ## Author
 
-- Website - [Fernando Falcon](http://www.ferfalcon.com/)
+- Website - [ferfalcon.com](http://ferfalcon.com/)
 - LinkedIn - [Fernando Falcon](https://www.linkedin.com/in/fernandofalcon/)
-- Frontend Mentor - [@ferfalcon](https://www.frontendmentor.io/profile/ferfalcon)
+- Frontend Mentor - [@ferfalcon](https://www.frontendmentor.io/profile/ferfalcon/)
+- Twitter - [@fernandofalcon](https://www.twitter.com/fernandofalcon/)
