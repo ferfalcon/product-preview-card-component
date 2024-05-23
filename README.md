@@ -45,7 +45,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [ferfalcon.com](http://ferfalcon.com/)
 - LinkedIn - [Fernando Falcon](https://www.linkedin.com/in/fernandofalcon/)
+- Website - [ferfalcon.com](http://ferfalcon.com/)
 - Frontend Mentor - [@ferfalcon](https://www.frontendmentor.io/profile/ferfalcon/)
 - Twitter - [@fernandofalcon](https://www.twitter.com/fernandofalcon/)
