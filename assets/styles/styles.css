@@ -1,9 +1,26 @@
 :root {
-  --body-background: hsl(28, 38%, 92%);
-  --body-color: hsl(228, 12%, 48%);
-  --name-color: hsl(212, 21%, 14%);
-  --accent-color: hsl(157, 36%, 37%);
-  --accent-dark-color: hsl(157, 43%, 18%);
+  --cl-neutral-100: hsl(0, 0%, 100%);
+  --cl-neutral-200: hsl(28, 38%, 92%);
+  --cl-neutral-500: hsl(228, 12%, 48%);
+  --cl-neutral-900: hsl(212, 21%, 14%);
+  --cl-accent-500: hsl(157, 36%, 37%);
+  --cl-accent-800: hsl(157, 43%, 18%);
+  --ff-main: "Montserrat", sans-serif;
+  --ff-accent: "Fraunces", serif;
+  --fs-100: 0.75rem;
+  --fs-200: 0.813rem;
+  --fs-400: 0.875rem;
+  --fs-700: 2rem;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --lh-100: 1;
+  --lh-500: 1.643;
+  --ls-700: 0.4167em;
+  --ty-heading: var(--fw-bold) var(--fs-700)/var(--lh-100) var(--ff-accent);
+  --ty-copy: var(--fw-medium) var(--fs-400)/var(--lh-500) var(--ff-main);
+  --ty-tag: var(--fw-medium) var(--fs-100) var(--ff-main);
+  --ty-old-price: var(--fw-medium) var(--fs-200) var(--ff-main);
+  --ty-button: var(--fw-bold) var(--fs-400) var(--ff-main);
 }
 html {
   box-sizing: border-box;
@@ -39,8 +56,8 @@ body {
   min-height: 100svh;
   margin: 0;
   padding: 1.5rem 0.5rem;
-  color: var(--body-color);
-  background: var(--body-background);
+  color: var(--cl-neutral-500);
+  background: var(--cl-neutral-200);
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -76,7 +93,7 @@ img {
 }
 .product-card--content {
   padding: 1.5rem;
-  background: white;
+  background: var(--cl-neutral-100);
   border-radius: 0 0 0.625rem 0.625rem;
 }
 @media (min-width: 60rem) {
@@ -103,7 +120,7 @@ img {
   font-style: normal;
   font-variation-settings: "SOFT" 0, "WONK" 0;
   font-weight: 700;
-  color: var(--name-color);
+  color: var(--cl-neutral-900);
   font-size: 2rem;
   line-height: 2rem;
   margin: 0 0 1rem;
@@ -142,7 +159,7 @@ img {
   font-variation-settings: "SOFT" 0, "WONK" 0;
   font-weight: 700;
   font-size: 2rem;
-  color: var(--accent-color);
+  color: var(--cl-accent-500);
   line-height: 1;
 }
 .product-card--old-price {
@@ -158,9 +175,9 @@ img {
   font-style: normal;
   font-weight: 500;
   font-weight: 700;
-  color: white;
+  color: var(--cl-neutral-100);
   font-size: 0.875rem;
-  background: var(--accent-color);
+  background: var(--cl-accent-500);
   width: 100%;
   height: 3rem;
   border: 0;
@@ -168,7 +185,7 @@ img {
   transition: background 0.3s ease-out;
 }
 .product-card--add-to-cart:hover {
-  background: var(--accent-dark-color);
+  background: var(--cl-accent-800);
 }
 .signature {
   position: absolute;
